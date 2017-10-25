@@ -6,19 +6,10 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  2.4.0
 
-* System dependencies
+始めに起動する際にtableを作成
+rails db:migrate
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+bundle install
+これだけで、websocketのチャットが出来ます。
